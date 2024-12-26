@@ -1,0 +1,130 @@
+/* To copy-paste in your CSS Style Sheet!!!*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Footer Styling */
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer Top Styling*/
+.footer-top {
+    background-color: darkgray; /* Change the color later*/
+    color: white; /* Change the color later*/
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 25px;
+    margin: 25px auto;
+}
+
+.footer-top-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-top-left, .footer-top-middle, .footer-top-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    align-items: center;
+}
+
+.footer-top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-top-left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+}
+
+.footer-top-middle {
+    border-right: solid white 1px; /* Change the color later*/
+    border-left: solid white 1px; /* Change the color later*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-top-right h2 {
+    font-size: 36px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Change the font later*/
+}
+.footer-top-middle a {
+    color: black;
+    text-decoration: none;  
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
+    font-size: 15px;
+}
+
+.footer-top-middle a:hover {
+    color: red; /* Change the color later*/
+    border-bottom: solid red 1px; /* Change the font later*/
+}
+
+.footer-top-button {
+    background-color: white; /* Change the color later*/
+    color: black;  /* Change the color later*/
+    border-radius: 25px;
+    padding: 20px;
+    width: 30%;
+    align-self: center;
+}
+
+.footer-top-button a {
+    color: black;  /* Change the color later*/
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
+}
+
+.footer-top-button a:hover {
+    color: red; /* Change the color later*/
+}
+
+/* Footer Bottom Styling */
+.footer-bottom {
+    background-color: grey; /* Change the color later*/
+    color: white;  /* Change the color later*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-bottom-item {
+    width: 30%;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
+}
+.fa-linkedin, .fa-instagram, .fa-facebook {
+    font-size: 30px;
+    padding: 10px;
+    color: white; /* Change the color later*/
+}
+
+.fa-linkedin:hover, .fa-instagram:hover, .fa-facebook:hover {
+    color: red; /* Change the color later*/
+}
+
+.fa-heart {
+    color: red; /* Change the color later*/;
+}
