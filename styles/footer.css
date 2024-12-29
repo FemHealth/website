@@ -115,13 +115,13 @@ footer {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
 }
-.fa-linkedin, .fa-instagram, .fa-facebook {
+.footer-bottom .fa-linkedin,.footer-bottom .fa-instagram,.footer-bottom .fa-facebook {
     font-size: 30px;
     padding: 10px;
     color: white; /* Change the color later*/
 }
 
-.fa-linkedin:hover, .fa-instagram:hover, .fa-facebook:hover {
+.footer-bottom .fa-linkedin:hover,.footer-bottom .fa-instagram:hover,.footer-bottom .fa-facebook:hover {
     color: red; /* Change the color later*/
 }
 
