@@ -1,15 +1,19 @@
+
 /* Contact Styling */
 body {
     margin: 0;
     padding: 0;
     background-color: grey; /* Change the color later*/
     color: white; /* Change the color later*/
+    font-family: "Poppins", serif;
 }
 
 /* Hero Styling */
 .hero {
     height: max-content;
     padding: 20px;
+    background-color: white; /* Change the color later*/
+    color: grey; /* Change the color later*/
 }
 
 .hero-container {
@@ -18,12 +22,14 @@ body {
     padding: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     padding: auto;
     align-items: left;
     flex-wrap: wrap;
@@ -53,7 +59,7 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     padding: auto;
     align-items: center;
 }
@@ -62,4 +68,122 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 25px;
+}
+
+/* Contact Styling */
+#contact {
+    padding: 50px 0;
+}
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: auto;
+}
+    /* Contact Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 25px;
+    align-items: left;
+    flex-wrap: wrap;
+    border: 1px solid white; /* Change the color later*/
+    border-radius: 15px;
+}
+
+.contact-form span {
+    text-decoration: underline;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: palevioletred; /* Change the color later*/
+    resize: none;  /* Prevent resizing*/
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border: 2px solid palevioletred; /* Change the color later*/
+    outline: none; /* Remove the outline*/
+}
+button {
+    background-color: white; /* Change the color later*/
+    color: black; /* Change the color later*/
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid white; /* Change the color later*/
+}
+
+button:hover {
+    background-color: black; /* Change the color later*/
+    color: white; /* Change the color later*/
+    transition: 0.6s ease;
+}
+
+/* Contact Information Styling */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: auto;
+    align-items: center;
+    justify-content: center;  
+}
+
+.contact-info-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-envelope, .fa-phone, .fa-location-dot {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: white; /* Change the color later*/
+}
+
+.contact-info p {
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Contact Social Styling */
+.contact-social {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    max-width: 100%;
+    align-items: center;
+}
+
+.contact-social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    padding: 40px 0;
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin {
+    font-size: 4rem;
+    margin: 10px 0;
+    color: white; /* Change the color later*/
 }
