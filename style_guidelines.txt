@@ -1,1 +1,119 @@
-Created the style guidelines!
+
+==================================
+Overall Look and Feel of FemHealth
+==================================
+
+The overall look and feel of the FemHealth website should be feminine, simple, minimalist, and refined.
+The design must be aesthetically pleasing, approachable, and inclusive, ensuring all users feel welcomed. 
+Accessibility and ease of navigation should be prioritized to create a seamless user experience.
+
+Colours
+=======
+The color palette reflects FemHealth's personality—feminine, cheerful, and professional. 
+These swatches and their usage ensure a cohesive and visually appealing experience:
+
+1. Soft Pink (#FAD1E2):
+- Primary Backgrounds: Large sections such as headers, hero banners, or sections introducing the organization.
+- Call-to-Action Highlights: Testimonials or team introductions.
+
+2. Bright Pink (#F76AA7):
+- Buttons & Links: Call-to-action buttons, hover effects, or links for visual prominence.
+- Accents: Icons, dividers, or headings.
+
+3. Light Yellow (#FFF4C4):
+- Secondary Backgrounds: Cheerful section dividers or alternating backgrounds to enhance readability.
+- Highlights: Drawing attention to quotes, key stats, or "Did You Know?" sections.
+
+4. White (#FFFFFF):
+- Main Background: Clean, minimal design base.
+- Text Areas: Forms or card designs to ensure polish and professionalism.
+
+5. Soft Gray (#E5E5E5):
+- Text Blocks & Footers: Muted text (e.g., captions, disclaimers) or the footer section for balance.
+- Borders and Dividers: Subtle separation of sections or content.
+
+Accessibility Note:
+Ensure sufficient contrast between text and background colors for readability. 
+Use WCAG contrast checkers to maintain compliance and accessibility.
+
+Iconography
+===========
+Icons play a critical role in maintaining the visual language:
+
+Style: Flat design with soft, rounded edges to align with the feminine and approachable theme.
+
+Source: Solid icons from FontAwesome.
+
+Illustrations: Prioritize hand-drawn or vector-style illustrations for hero banners, informational sections, and highlights. 
+Minimize the use of real images to maintain consistency.
+
+Accessibility: Include descriptive alt text for all icons and illustrations to support screen readers.
+
+Typography
+==========
+Typography helps convey FemHealth's voice clearly and stylishly:
+
+Fonts:
+- Poppins: For headings and main navigation.
+- Sour Gummy: For playful accents and emphasis areas, such as quotes or highlights.
+
+Guidelines:
+-Font Sizes:
+    ~ Headings: 24px-36px
+    ~ Body Text: 16px
+    ~ Captions: 14px
+
+Contrast: Ensure text color contrasts sufficiently with its background.
+
+Links
+=====
+Appearance:
+    - No underlining by default.
+    - Change color or add subtle effects (e.g., bold or underline) on hover for better visibility.
+
+Placement: Some links can be embedded in images or logos but should remain easily identifiable.
+
+Accessibility: Ensure all links are distinguishable for users with visual impairments.
+
+Buttons
+=======
+Design:
+    - Flat and round, using the specified colors.
+    - Two main styles:
+        1. Pink, round with a 25px border radius.
+        2. Shaped like a flower for playful elements.
+
+Hover Effects:
+Slightly darker shade to indicate interactivity.
+
+Focus States:
+Add an outline or subtle glow to improve keyboard navigation accessibility.
+
+Shadows: Subtle shadows may be added to enhance clickability while maintaining a flat design aesthetic.
+
+Animations
+==========
+Transitions: 
+Use subtle animations (e.g., fade-ins, slide effects) for section transitions or hover states.
+
+Guidelines: 
+Animations should be quick and smooth, enhancing the user experience without causing distraction.
+
+Responsive Design
+=================
+The website must be fully responsive:
+
+Mobile-Friendly: 
+Ensure layouts adapt seamlessly to smaller screens.
+
+Testing: 
+Test on a variety of devices and browsers to maintain consistent experiences.
+
+Images and Illustrations
+========================
+Style: Hand-drawn or vector-style illustrations.
+
+Usage:
+    - Hero sections: Feature illustrations to create a welcoming atmosphere.
+    - Testimonials and highlights: Use as decorative elements.
+    - Accessibility: Add descriptive alt text for all images and illustrations.
