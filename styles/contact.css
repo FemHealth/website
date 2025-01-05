@@ -91,10 +91,13 @@ body {
     padding: 25px;
     align-items: left;
     flex-wrap: wrap;
-    border: 1px solid #F76AA7; /* Change the color later*/
+    border: 3px solid #F76AA7; /* Change the color later*/
     border-radius: 15px;
 }
 
+.contact-form h2 {
+    margin-bottom: 0;
+}
 .contact-form span {
     text-decoration: underline;
 }
