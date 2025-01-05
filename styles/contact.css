@@ -3,8 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: grey; /* Change the color later*/
-    color: white; /* Change the color later*/
+    background-color: #FFF4C4; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
     font-family: "Poppins", serif;
 }
 
@@ -12,8 +12,8 @@ body {
 .hero {
     height: max-content;
     padding: 20px;
-    background-color: white; /* Change the color later*/
-    color: grey; /* Change the color later*/
+    background-color: #FAD1E2; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
 }
 
 .hero-container {
@@ -91,7 +91,7 @@ body {
     padding: 25px;
     align-items: left;
     flex-wrap: wrap;
-    border: 1px solid white; /* Change the color later*/
+    border: 1px solid #F76AA7; /* Change the color later*/
     border-radius: 15px;
 }
 
@@ -119,13 +119,13 @@ body {
     outline: none; /* Remove the outline*/
 }
 button {
-    background-color: white; /* Change the color later*/
+    background-color: #F76AA7; /* Change the color later*/
     color: black; /* Change the color later*/
     font-size: 16px;
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 25px;
-    border: 1px solid white; /* Change the color later*/
+    border: 1px solid transparent; /* Change the color later*/
 }
 
 button:hover {
@@ -155,7 +155,7 @@ button:hover {
 .fa-envelope, .fa-phone, .fa-location-dot {
     font-size: 2.5rem;
     margin: 10px 0;
-    color: white; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
 }
 
 .contact-info p {
@@ -185,5 +185,5 @@ button:hover {
 .fa-facebook, .fa-instagram, .fa-linkedin {
     font-size: 4rem;
     margin: 10px 0;
-    color: white; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
 }
