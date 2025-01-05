@@ -11,7 +11,7 @@ footer {
 
 /* Footer Top Styling*/
 .footer-top {
-    background-color: darkgray; /* Change the color later*/
+    background-color: #FAD1E2; /* Change the color later*/
     color: white; /* Change the color later*/
     padding: 20px;
     text-align: center;
@@ -59,13 +59,13 @@ footer {
 .footer-top-right h2 {
     font-size: 36px;
     padding: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Change the font later*/
+    font-family: "Sour Gummy", serif; /* Change the font later*/
 }
 .footer-top-middle a {
-    color: black;
+    color: white;
     text-decoration: none;  
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
+    font-family: "Poppins", sans-serif;  /* Change the font later*/
     font-size: 15px;
 }
 
@@ -75,8 +75,8 @@ footer {
 }
 
 .footer-top-button {
-    background-color: white; /* Change the color later*/
-    color: black;  /* Change the color later*/
+    background-color: #F76AA7; /* Change the color later*/
+    color: white;  /* Change the color later*/
     border-radius: 25px;
     padding: 20px;
     width: 30%;
@@ -84,10 +84,10 @@ footer {
 }
 
 .footer-top-button a {
-    color: black;  /* Change the color later*/
+    color: white;  /* Change the color later*/
     text-decoration: none;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
+    font-family: "Poppins", sans-serif;  /* Change the font later*/
 }
 
 .footer-top-button a:hover {
@@ -96,7 +96,7 @@ footer {
 
 /* Footer Bottom Styling */
 .footer-bottom {
-    background-color: grey; /* Change the color later*/
+    background-color: #F76AA7; /* Change the color later*/
     color: white;  /* Change the color later*/
     display: flex;
     flex-direction: row;
@@ -113,7 +113,7 @@ footer {
 .footer-bottom p {
     font-size: 14px;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;  /* Change the font later*/
+    font-family: "Poppins", sans-serif;  /* Change the font later*/
 }
 .footer-bottom .fa-linkedin,.footer-bottom .fa-instagram,.footer-bottom .fa-facebook {
     font-size: 30px;

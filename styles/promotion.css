@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FFF4C4; 
 }
 
 /* Hero Styling */
 .hero {
-    background-color: grey; /* Change the color later*/
-    color: white; /* Change the color later*/
+    background-color: #FAD1E2; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
     height: max-content;
     text-align: left;
     padding: 20px;
@@ -73,7 +74,7 @@ body {
 }
 
 .hero-button-2 {
-    background-color: blanchedalmond; /* Change the color later*/
+    background-color: #F76AA7; /* Change the color later*/
     border: none;
     border-radius: 25px;
     padding: 10px;
@@ -92,8 +93,8 @@ body {
 
 /* Promotion Styling */
 .association {
-    background-color: darkgray; /* Change the color later*/
-    color: white; /* Change the color later*/
+    background-color: #FFF4C4; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
     padding: 20px;
     text-align: center;
     display: flex;
