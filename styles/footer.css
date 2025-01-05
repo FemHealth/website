@@ -12,7 +12,7 @@ footer {
 /* Footer Top Styling*/
 .footer-top {
     background-color: #FAD1E2; /* Change the color later*/
-    color: white; /* Change the color later*/
+    color: #F76AA7; /* Change the color later*/
     padding: 20px;
     text-align: center;
     display: flex;
@@ -49,8 +49,8 @@ footer {
 }
 
 .footer-top-middle {
-    border-right: solid white 1px; /* Change the color later*/
-    border-left: solid white 1px; /* Change the color later*/
+    border-right: solid #F76AA7 1px; /* Change the color later*/
+    border-left: solid #F76AA7 1px; /* Change the color later*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -62,7 +62,7 @@ footer {
     font-family: "Sour Gummy", serif; /* Change the font later*/
 }
 .footer-top-middle a {
-    color: white;
+    color: #F76AA7;
     text-decoration: none;  
     padding: 5px;
     font-family: "Poppins", sans-serif;  /* Change the font later*/
