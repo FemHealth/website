@@ -15,7 +15,7 @@ body {
 
 .hero-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -52,7 +52,7 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     padding: auto;
     align-items: center;
 }

@@ -59,7 +59,7 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 15%;
     padding: auto;
     align-items: center;
 }
