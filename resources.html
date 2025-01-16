@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Ressources</title>
 	<!--- Add CSS for class divs of R --->
-
+    <link rel="stylesheet" href="styles/resources.css">
 	<!--- Footer head --->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<link rel="stylesheet" href="styles/footer.css">
@@ -13,30 +13,30 @@
 <body>
 
 <!--- Banner/ Title --->
-	<div>
-		<h1> Ressources </h1>
-    	<h2> In need of help for xyz? Take a look at our verified ressources to abc. </h2>
+	<div class="Rheader">
+		<h1 class="Rheader_title"> Ressources </h1>
+    	<h2 class="Rheader_desc"> In need of help for xyz? </h2>
+        <h2 class="Rheader_desc">Take a look at our verified resources to abc. </h2>
 	</div>
 	
 <!--- Little boxes containing ''Services'' VERTICAL--->
-	<div>
-        <h3>Section 1: Type of resource 1</h3>
-        <p>I am a mini description to let the user know what the title means.</p>
-        
+	<div class="RSection">
+        <div class="RSection_header">
+            <h3 class="RSection_titletext">Section 1: Type of resource 1</h3>
+            <p class="RSection_desctext">I am a mini description to let the user know what the title means.</p>
+         </div>
+
         <!--- Company/Organization descriptions HORIZONTAL-->
-            
-            <!--- Company 1-->
-                <div>
-                    <a href="https://Insert_Company_Link_here.com">
-                      <img src="temp_logo.png"  alt="Name of Company Website">
-                    </a>
+        <!--- Company 1-->
+        <div>
+            <a href="https://Insert_Company_Link_here.com">
+                <img src="temp_logo.png"  alt="Name of Company Website">
+            </a>
 
-                    <h4>Company #1</h4>
-                    <p>I am the description of the linked resource!</p>
-                </div>
+            <h4>Company #1</h4>
+            <p>I am the description of the linked resource!</p>
+        </div>
     </div>
-
-
 
 
 
