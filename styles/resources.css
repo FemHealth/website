@@ -7,11 +7,11 @@ body{
 
 /* Header */
 .Rheader{
-    background-color: #fad1e2;
+    background-color: #ffe2a7;
     text-align: center;
     padding: 40px;
-    color: #f66aa7;
-    border-bottom: 1px groove #ea5998;
+    color: #cc216b;
+    border-bottom: 1px groove #ea5998d6;
 }
 
 .Rheader_title{
@@ -39,7 +39,7 @@ body{
     border-top-right-radius: 20px ;
     border-bottom-right-radius: 20px;
     background-color: #fdc7dd;
-    color: #f66aa7;
+    color: #cc216b;
 }
 
 .RSection_titletext{
@@ -67,9 +67,11 @@ body{
 
 .RSingle_Company_h{
     font-size: 20px;
+    color:#de2374
 }
 .RSingle_Company_p{
     margin-top: -30px;
+    color: #cc1b68
 }
 
 .RSection_Logo{
