@@ -38,7 +38,7 @@ body{
     font-size:24px;
     border-top-right-radius: 20px ;
     border-bottom-right-radius: 20px;
-    background-color: #fad1e2;
+    background-color: #fdc7dd;
     color: #f66aa7;
 }
 
@@ -57,6 +57,7 @@ body{
 .RSingle_Company_Display{
     display: flex;
     justify-content: left;
+    background-color: #fdc7dd
 }
 
 .RSingle_Company_hp{
