@@ -29,6 +29,7 @@ body{
 
 .RSection{
     width: 900px;
+    padding: 50px;
 }
 .RSection_header{
     font-size:24px;
@@ -48,5 +49,14 @@ body{
     margin-left: 15px;
     margin-top:-30px ;
     font-size: 16px;
+
+}
+
+.RSection_Img{
+    width:120px;
+    border-radius: 8px;
+    display: flex;
+    padding: 30px;
+
 
 }
