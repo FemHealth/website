@@ -44,7 +44,7 @@ body{
 
 .RSection_titletext{
     margin-left: 15px;
-
+    width: 900px;
 }
 
 .RSection_desctext{
@@ -59,8 +59,9 @@ body{
     justify-content: left;
 }
 
-.RSingle_Company_Alltxt{
-    padding-top: 10px;
+.RSingle_Company_hp{
+    width: 500px;
+    height: 200px;
 }
 
 .RSingle_Company_h{
