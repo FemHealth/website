@@ -57,19 +57,21 @@ body{
     justify-content: left;
 }
 
-.RSingle_Company_txt{
+.RSingle_Company_Alltxt{
     padding-top: 10px;
 }
 
+.RSingle_Company_h{
+    font-size: 20px;
+}
 .RSingle_Company_p{
-    
+    margin-top: -30px;
 }
 
-.RSection_Img{
+.RSection_Logo{
     width:120px;
+    height: 120px;
     border-radius: 40px;
     display: flex;
     padding: 30px;
-
-
 }
