@@ -7,11 +7,11 @@ body{
 
 /* Header */
 .Rheader{
-    background-color: #fad1e2;
+    background-color: #ffe2a7;
     text-align: center;
     padding: 40px;
-    color: #f66aa7;
-    border-bottom: 1px groove #ea5998;
+    color: #cc216b;
+    border-bottom: 1px groove #ea5998d6;
 }
 
 .Rheader_title{
@@ -29,19 +29,22 @@ body{
 
 .RSection{
     width: 900px;
+    border-left: 6px solid #ea5998;
+    margin-left: 70px;
+    margin-top: 60px;
+    
 }
 .RSection_header{
     font-size:24px;
-    border-left: 6px solid #ea5998;
     border-top-right-radius: 20px ;
     border-bottom-right-radius: 20px;
-    background-color: #fad1e2;
-    color: #f66aa7;
+    background-color: #fdc7dd;
+    color: #cc216b;
 }
 
 .RSection_titletext{
     margin-left: 15px;
-
+    width: 900px;
 }
 
 .RSection_desctext{
@@ -49,4 +52,32 @@ body{
     margin-top:-30px ;
     font-size: 16px;
 
+}
+
+.RSingle_Company_Display{
+    display: flex;
+    justify-content: left;
+    background-color: #fdc7dd
+}
+
+.RSingle_Company_hp{
+    width: 500px;
+    height: 200px;
+}
+
+.RSingle_Company_h{
+    font-size: 20px;
+    color:#de2374
+}
+.RSingle_Company_p{
+    margin-top: -30px;
+    color: #cc1b68
+}
+
+.RSection_Logo{
+    width:120px;
+    height: 120px;
+    border-radius: 40px;
+    display: flex;
+    padding: 30px;
 }
