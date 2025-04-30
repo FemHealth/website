@@ -73,6 +73,7 @@ body {
 /* Contact Styling */
 #contact {
     padding: 50px 0;
+    background: linear-gradient(to bottom, #FAD1E2, #FFF4C4);
 }
 .contact-container {
     display: flex;
@@ -189,4 +190,12 @@ button:hover {
     font-size: 4rem;
     margin: 10px 0;
     color: #F76AA7; /* Change the color later*/
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover {
+    color: #f93f8f; /* Change the color later*/
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-5px);
+    cursor: pointer;
 }

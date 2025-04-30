@@ -1,13 +1,20 @@
+* {
+    box-sizing: border-box;
+    /* border : 1px solid red; */
+}
+
 /* To copy-paste in your CSS Style Sheet!!!*/
 body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 /* Footer Styling */
 footer {
     bottom: 0;
     width: 100%;
 }
+
 
 
 /* Footer Top Styling*/
@@ -41,7 +48,7 @@ footer {
 .footer-top-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .footer-top-left img {
     width: 100px;
@@ -58,7 +65,7 @@ footer {
 }
 
 .footer-top-right h2 {
-    font-size: 36px;
+    font-size: 24px;
     padding: 10px;
     font-family: "Sour Gummy", serif; /* Change the font later*/
 }
@@ -67,20 +74,23 @@ footer {
     text-decoration: none;  
     padding: 5px;
     font-family: "Poppins", sans-serif;  /* Change the font later*/
-    font-size: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
 }
 
 .footer-top-middle a:hover {
     color: red; /* Change the color later*/
     border-bottom: solid red 1px; /* Change the font later*/
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 .footer-top-button {
     background-color: #F76AA7; /* Change the color later*/
     color: white;  /* Change the color later*/
     border-radius: 25px;
-    padding: 20px;
-    width: 30%;
+    padding: 10px 30px;
+    margin: 10px 0;
     align-self: center;
 }
 

@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #FFF4C4; 
+    background-color: #FFF4C4;  
 }
 
 /* Hero Styling */
@@ -71,18 +79,31 @@ body {
     margin: 10px 0;
     width: 40%;
     text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-button-1:hover {
+    transform: scale(0.95);
+    background-color: #FFF4C4;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .hero-button-2 {
-    background-color: #F76AA7; /* Change the color later*/
+    background-color: #f665a4; /* Change the color later*/
     border: none;
     border-radius: 25px;
     padding: 10px;
     margin: 10px 0;
     width: 40%;
     text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+.hero-button-2:hover {
+    transform: scale(0.95);
+    background-color: #f93f8f; /* Change the color later*/
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
 .hero a {
     font-size: 18px;
     font-family: "Poppins", serif;
@@ -93,7 +114,8 @@ body {
 
 /* Promotion Styling */
 .association {
-    background-color: #FFF4C4; /* Change the color later*/
+    background: linear-gradient(to bottom, #FAD1E2, #FFF4C4);
+    /* background-color: #FFF4C4; /* Change the color later*/
     color: #F76AA7; /* Change the color later*/
     padding: 20px;
     text-align: center;
@@ -119,12 +141,13 @@ body {
     color: black; /* Change the color later */
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 400px;
+    width: 25%;
+    height: auto;
     align-items: center;
     margin: 25px 10px;
     border-radius: 25px;
     overflow: hidden;
+    border: 1px solid #FFFFFF; /* Change the color later*/
 }
 
 .association-item img {
@@ -142,12 +165,13 @@ body {
     left: 0;
     background: rgba(0, 0, 0, 0.6);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     opacity: 0;
     transition: opacity 0.6s ease;
     border-radius: 25px;
+    padding: 20px;
 }
 
 .association-item:hover .association-content {
@@ -180,6 +204,12 @@ body {
     padding: 10px;
     border-radius: 25px;
     width: 40%;
+    background-color: #FFF4C4;
+}
+
+.association-button:hover {
+    background-color: #FFF4C4; /* Change the color later*/
+    transition: background-color 0.3s ease;
 }
 
 .association a {
