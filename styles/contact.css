@@ -10,8 +10,8 @@ body {
 
 /* Hero Styling */
 .hero {
+    padding-top: 4rem;
     height: max-content;
-    padding: 20px;
     background-color: #FAD1E2; /* Change the color later*/
     color: #F76AA7; /* Change the color later*/
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .hero-text h1 {
-    font-size: 48px;
+    font-size: 4rem;
     margin: 10px 0;
     font-family: "Poppins", serif;
     font-weight: 700;
@@ -79,7 +79,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 100%;
     margin: auto;
