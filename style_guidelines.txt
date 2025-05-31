@@ -32,6 +32,8 @@ These swatches and their usage ensure a cohesive and visually appealing experien
 - Text Blocks & Footers: Muted text (e.g., captions, disclaimers) or the footer section for balance.
 - Borders and Dividers: Subtle separation of sections or content.
 
+6. Darker Pink (#F86BA7)
+
 Accessibility Note:
 Ensure sufficient contrast between text and background colors for readability. 
 Use WCAG contrast checkers to maintain compliance and accessibility.
