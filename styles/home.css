@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    border: 1px solid red; /* For debugging purposes, can be removed later */
+    /*border: 1px solid red; /* For debugging purposes, can be removed later */
 }
 
 a {
