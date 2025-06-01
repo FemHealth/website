@@ -3,12 +3,40 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    /* border: 1px solid red; /* For debugging purposes, can be removed later */
+    border: 1px solid red; /* For debugging purposes, can be removed later */
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+body {
+    background: linear-gradient(to bottom, #FFF4C4, #F76AA7);
+}
+
+body p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+body h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    margin: 2rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(0.95);
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 /* Navbar Styling */
@@ -126,6 +154,112 @@ header h2 {
     font-size: 3rem;
     color: #F76AA7; 
     animation: translate infinite 2s linear;
+}
+/* About Section Styling */
+#about {
+    color: #F76AA7;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: justify;
+    overflow-x: hidden;
+}
+
+.about-container {
+    padding: 0 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-container-up, .about-container-down {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text, .about-image {
+    padding: 4rem;
+    width: 100%;
+    height: 50vh;
+}
+
+.about-image {
+    background-color: #F76AA7;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#about .cta-button {
+    background-color: #F76AA7;
+    color: #FFF4C4; 
+}
+
+/* Mission Section Styling */
+#mission {
+    color: #F76AA7; 
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+#mission img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mission-item {
+    background-color: #F76AA7;
+    color: #FFF4C4;
+    border-radius: 25px;
+    width: 20%;
+    margin: 2rem 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.mission-item:hover {
+    background-color: #C94F85;
+    transform: scale(1.005);
+    transition: all 0.3s ease-in-out;
+}
+
+#mission .cta-button {
+    background-color: #FFF4C4;
+    color: #F76AA7;
 }
 
 /* Animation */
