@@ -1,3 +1,6 @@
+.body-cont {
+    width: calc(100% - 250px);
+}
 
 /* Contact Styling */
 body {

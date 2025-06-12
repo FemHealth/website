@@ -6,7 +6,11 @@
     /*border: 1px solid red; /* For debugging purposes, can be removed later */
 }
 
-a {
+.body-cont {
+    width: calc(100% - 250px);
+}
+
+.body-cont a {
     text-decoration: none;
     color: inherit;
 }
@@ -163,7 +167,6 @@ header h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     text-align: justify;
     overflow-x: hidden;
 }

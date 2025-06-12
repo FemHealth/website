@@ -4,10 +4,12 @@ body {
     font-family: "Poppins";
     background-color: #FAD1E2;
 }
+
 .body-cont {
     margin-left: 250px;
 }
-a {
+
+.navbar a {
    text-decoration: none;
    color:  #FAD1E2;
    font-weight: 100;
