@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
+
 body {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     background-color: #FAD1E2;
 }
 
 .body-cont {
+    width: calc(100% - 250px);
     margin-left: 250px;
 }
 
 .navbar a {
    text-decoration: none;
    color:  #FAD1E2;
-   font-weight: 100;
+   font-weight: 400;
 }
 .navbar {
     top: 0;
@@ -46,7 +48,6 @@ body {
 .navbar_mid {
     gap: 20px;
     padding: 0 15px;
-    background-color:;
     height: 80px;
 }
 
@@ -61,6 +62,11 @@ body {
     justify-content: baseline;
 }
 
+.button_items p {
+    font-size: 20px;
+    display: flex;
+    justify-content: baseline;
+}
 
 .navbar_button .button_items {
     transition: 200ms;
@@ -78,6 +84,13 @@ body {
     display: flex;
     justify-content:baseline;
     font-size: 30px;
+}
+
+.navbar_logo p {
+    font-size: 30px;
+    padding-top: 5px;
+    display: flex;
+    justify-content:baseline;
 }
 
 #navbar_logo { 

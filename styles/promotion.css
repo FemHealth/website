@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     /* border: 1px solid red; */
 }
 
@@ -141,7 +139,7 @@ body {
     color: black; /* Change the color later */
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 30%;
     height: auto;
     align-items: center;
     margin: 25px 10px;
