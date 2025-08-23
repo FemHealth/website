@@ -99,5 +99,30 @@ body {
     margin: 20px 0;
     padding: 0 10px;
     font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
 }
 
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: max-height 1s ease;
+}
+
+.faq_quest.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

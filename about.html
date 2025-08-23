@@ -117,20 +117,20 @@
         <div class="faq" id="faq">
             <h2>Frequently Asked Questions</h2>
             <div class="faq_quest">
-                <p>Question</p>
-                <p>Answer</p>
+                <p class="question">Question</p>
+                <p class="answer">Answer</p>
             </div>
             <div class="faq_quest">
-                <p>Question</p>
-                <p>Answer</p>
+                <p class="question">Question</p>
+                <p class="answer">Answer</p>
             </div>
             <div class="faq_quest">
-                <p>Question</p>
-                <p>Answer</p>
+                <p class="question">Question</p>
+                <p class="answer">Answer</p>
             </div>
             <div class="faq_quest">
-                <p>Question</p>
-                <p>Answer</p>
+                <p class="question">Question</p>
+                <p class="answer">Answer</p>
             </div>
         </div>
 
@@ -186,6 +186,14 @@
                     toggleStatus = true;
                 }
             }
+
+            const faqs = document.querySelectorAll('.faq_quest');
+
+            faqs.forEach(faq => {
+                faq.addEventListener('click', () => {
+                    faq.classList.toggle('active');
+                })
+            })
         </script>
     </body>
 </div>
