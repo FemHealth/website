@@ -1,130 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-	<meta charset="UTF-8">
-	<title>Ressources</title>
-	<!--- Add CSS for class divs of R --->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ressources</title>
+    <!--- Add CSS for class divs of R --->
     <link rel="stylesheet" href="styles/resources.css">
 
-	<!--- Footer head --->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-	<link rel="stylesheet" href="styles/footer.css">
+    <!--- Footer head --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <!---Nav bar-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles/navbar.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
-<!--Navbar-->
-
-<div class="navbar">
+<!--Navbar code-->
+<div id="toggleMenu" onclick="toggleMenu()"></div>
+<nav class="navbar" id="menu">
     <div class="navbar_container">
         <div class="navbar_top">
             <div class="navbar_up">
-                <a href="#" class="navbar_logo"><img id="navbar_logo" src="temp_logo.png"><p>Femhealth</p></a>
+                <a href="" class="navbar_logo"><img id="navbar_logo" src="temp_logo.png">
+                    <p>Femhealth</p>
+                </a>
             </div>
-            <div class="navbar_mid">
-                <a href="articles.html" class="navbar_button"><div class="button_items"><span class="material-icons">description</span><p>Articles</p></div></a>
-                <a href="about.html" class="navbar_button"><div class="button_items"><span class="material-icons">info</span><p>About Femhealth</p></div></a>
-                <a href="team.html" class="navbar_button"><div class="button_items"><span class="material-icons">face</span><p>Meet the team</p></div></a>
-                <a href="promotion.html" class="navbar_button"><div class="button_items"><span class="material-icons">supervisor_account</span><p>Affiliated associations</p></div></a>
-                <a href="contact.html" class="navbar_button"><div class="button_items"><span class="material-icons">send</span><p>Contact us</p></div></a>
-                <a href="ressources.html" class="navbar_button"><div class="button_items"><span class="material-icons">psychology_alt</span><p>Ressources</p></div></a>
-            </div>
+            <ul class="navbar_mid">
+                <li><a href="articles.html" class="navbar_button">
+                        <div class="button_items"><span class="material-icons">description</span>
+                            <p>Articles</p>
+                        </div>
+                    </a></li>
+                <li><a href="about.html" class="navbar_button">
+                        <div class="button_items"><span class="material-icons">info</span>
+                            <p>About Femhealth</p>
+                        </div>
+                    </a></li>
+                <li><a href="team.html" class="navbar_button">
+                        <div class="button_items"><span class="material-icons">face</span>
+                            <p>Meet the team</p>
+                        </div>
+                    </a></li>
+                <li><a href="promotion.html" class="navbar_button">
+                        <div class="button_items"><span class="material-icons">supervisor_account</span>
+                            <p>Affiliated associations</p>
+                        </div>
+                    </a></li>
+                <li><a href="contact.html" class="navbar_button">
+                        <div class="button_items"><span class="material-icons">send</span>
+                            <p>Contact us</p>
+                        </div>
+                    </a></li>
+                <li><a href="ressources.html" class="navbar_button">
+                        <div class="button_items"><span class="material-icons">psychology_alt</span>
+                            <p>Ressources</p>
+                        </div>
+                    </a></li>
+            </ul>
         </div>
         <div class="navbar_down">
             <a href="" class="navbar_lang">FR</a>
         </div>
     </div>
-</div>
+</nav>
 
 
 <div class="body-cont">
-<body>
 
-<!--- Banner/ Title --->
-	<div class="Rheader">
-		<h1 class="Rheader_title"> Ressources </h1>
-    	<h2 class="Rheader_desc"> In need of help for xyz? </h2>
-        <h2 class="Rheader_desc">Take a look at our verified resources to abc. </h2>
-	</div>
-	
+    <body>
 
-
-
-
-
-<!--- Little boxes containing ''Services'' VERTICAL--->
-	<div class="RSection">
-        <div class="RSection_header">
-            <h3 class="RSection_titletext">Section 1: Type of resource 1</h3>
-            <p class="RSection_desctext">I am a mini description to let the user know what the title means.</p>
-         </div>
-
-        <!--- Company/Organization descriptions HORIZONTAL-->
-        <!--- Company 1-->
-        <div class = "RSingle_Company_Display">
-            <a href="https://Insert_Company_Link_here.com">
-                <img class = "RSection_Logo" src="temp_logo.png"  alt="Name of Company Website">
-            </a>
-
-            <div class = "RSingle_Company_hp">
-                <h4 class = "RSingle_Company_h">Company #1</h4>
-                <p class = "RSingle_Company_p" >I am the description of the linked resource #1 </p>
-            </div>
-            
+        <!--- Banner/ Title --->
+        <div class="Rheader">
+            <h1 class="Rheader_title"> Ressources </h1>
+            <h2 class="Rheader_desc"> In need of help for xyz? </h2>
+            <h2 class="Rheader_desc">Take a look at our verified resources to abc. </h2>
         </div>
 
-        <div class = "RSingle_Company_Display">
-            <a href="https://Insert_Company_Link_here.com">
-                <img class = "RSection_Logo" src="temp_logo.png"  alt="Name of Company Website">
-            </a>
 
-            <div class = "RSingle_Company_hp">
-                <h4 class = "RSingle_Company_h">Company #2</h4>
-                <p class = "RSingle_Company_p" >I am the description of the linked resource #2 </p>
+
+
+
+
+        <!--- Little boxes containing ''Services'' VERTICAL--->
+        <div class="RSection">
+            <div class="RSection_header">
+                <h3 class="RSection_titletext">Section 1: Type of resource 1</h3>
+                <p class="RSection_desctext">I am a mini description to let the user know what the title means.</p>
             </div>
-            
-        </div>
-    </div>
 
+            <!--- Company/Organization descriptions HORIZONTAL-->
+            <!--- Company 1-->
+            <div class="RSingle_Company_Display">
+                <a href="https://Insert_Company_Link_here.com">
+                    <img class="RSection_Logo" src="temp_logo.png" alt="Name of Company Website">
+                </a>
 
-    <div class="RSection">
-        <div class="RSection_header">
-            <h3 class="RSection_titletext">Section 2: Type of resource 1</h3>
-            <p class="RSection_desctext">I am a mini description to let the user know what the title means.</p>
-         </div>
+                <div class="RSingle_Company_hp">
+                    <h4 class="RSingle_Company_h">Company #1</h4>
+                    <p class="RSingle_Company_p">I am the description of the linked resource #1 </p>
+                </div>
 
-        <!--- Company/Organization descriptions HORIZONTAL-->
-        <!--- Company 1-->
-        <div class = "RSingle_Company_Display">
-            <a href="https://Insert_Company_Link_here.com">
-                <img class = "RSection_Logo" src="temp_logo.png"  alt="Name of Company Website">
-            </a>
-
-            <div class = "RSingle_Company_hp">
-                <h4 class = "RSingle_Company_h">Company #1</h4>
-                <p class = "RSingle_Company_p" >I am the description of the linked resource #1 </p>
             </div>
-            
-        </div>
 
-        <div class = "RSingle_Company_Display">
-            <a href="https://Insert_Company_Link_here.com">
-                <img class = "RSection_Logo" src="temp_logo.png"  alt="Name of Company Website">
-            </a>
+            <div class="RSingle_Company_Display">
+                <a href="https://Insert_Company_Link_here.com">
+                    <img class="RSection_Logo" src="temp_logo.png" alt="Name of Company Website">
+                </a>
 
-            <div class = "RSingle_Company_hp">
-                <h4 class = "RSingle_Company_h">Company #2</h4>
-                <p class = "RSingle_Company_p" >I am the description of the linked resource #2 </p>
+                <div class="RSingle_Company_hp">
+                    <h4 class="RSingle_Company_h">Company #2</h4>
+                    <p class="RSingle_Company_p">I am the description of the linked resource #2 </p>
+                </div>
+
             </div>
-            
         </div>
-    </div>
+
+
+        <div class="RSection">
+            <div class="RSection_header">
+                <h3 class="RSection_titletext">Section 2: Type of resource 1</h3>
+                <p class="RSection_desctext">I am a mini description to let the user know what the title means.</p>
+            </div>
+
+            <!--- Company/Organization descriptions HORIZONTAL-->
+            <!--- Company 1-->
+            <div class="RSingle_Company_Display">
+                <a href="https://Insert_Company_Link_here.com">
+                    <img class="RSection_Logo" src="temp_logo.png" alt="Name of Company Website">
+                </a>
+
+                <div class="RSingle_Company_hp">
+                    <h4 class="RSingle_Company_h">Company #1</h4>
+                    <p class="RSingle_Company_p">I am the description of the linked resource #1 </p>
+                </div>
+
+            </div>
+
+            <div class="RSingle_Company_Display">
+                <a href="https://Insert_Company_Link_here.com">
+                    <img class="RSection_Logo" src="temp_logo.png" alt="Name of Company Website">
+                </a>
+
+                <div class="RSingle_Company_hp">
+                    <h4 class="RSingle_Company_h">Company #2</h4>
+                    <p class="RSingle_Company_p">I am the description of the linked resource #2 </p>
+                </div>
+
+            </div>
+        </div>
 
 
 
@@ -141,44 +171,61 @@
 
 
 
-<!--- Footer --->
-	<footer>
-        <div class="footer-top">
-            <div class="footer-top-container">
-                <div class="footer-top-left">
-                    <img src="#" alt="FemHealth Logo">
-                    <div class="footer-top-button">
-                        <a href="contact.html">Contact Us</a>
+        <!--- Footer --->
+        <footer>
+            <div class="footer-top">
+                <div class="footer-top-container">
+                    <div class="footer-top-left">
+                        <img src="#" alt="FemHealth Logo">
+                        <div class="footer-top-button">
+                            <a href="contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="footer-top-middle">
+                        <a href="home.html">Home</a>
+                        <a href="articles.html">Articles</a>
+                        <a href="team.html">About Us</a>
+                        <a href="ressources.html">Ressources</a>
+                    </div>
+                    <div class="footer-top-right">
+                        <h2>Slogan of FemHealth or Cute Quote about Women would go here!</h2>
                     </div>
                 </div>
-                <div class="footer-top-middle">
-                    <a href="home.html">Home</a>
-                    <a href="articles.html">Articles</a>
-                    <a href="team.html">About Us</a>
-                    <a href="ressources.html">Ressources</a>
-                </div>
-                <div class="footer-top-right">
-                    <h2>Slogan of FemHealth or Cute Quote about Women would go here!</h2>
+                <div class="footer-top-button">
+                    <a href="#">Go back to the top <i class="fa-solid fa-chevron-up"></i></a>
                 </div>
             </div>
-            <div class="footer-top-button">
-                <a href="#">Go back to the top <i class="fa-solid fa-chevron-up"></i></a>
+            <div class="footer-bottom">
+                <div class="footer-bottom-item">
+                    <p>Made with <i class="fa-solid fa-heart"></i> by the FemHealth Dev Team</p>
+                </div>
+                <div class="footer-bottom-item">
+                    <p>Copyright &copy; 2025 FemHealth. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-item">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="footer-bottom-item">
-                <p>Made with <i class="fa-solid fa-heart"></i>  by the FemHealth Dev Team</p>
-            </div>
-            <div class="footer-bottom-item">
-                <p>Copyright &copy; 2025 FemHealth. All Rights Reserved.</p>
-            </div>
-            <div class="footer-bottom-item">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+        <script>
+            var toggleStatus = true;
+            function toggleMenu() {
+                if (toggleStatus == true) {
+                    document.getElementById('menu').style.left = '-500px';
+                    document.getElementsByClassName('body-cont')[0].style.marginLeft = '0px';
+                    document.getElementsByClassName('body-cont')[0].style.width = '100%';
+                    toggleStatus = false;
+                } else {
+                    document.getElementById('menu').style.left = '0px';
+                    document.getElementsByClassName('body-cont')[0].style.marginLeft = '250px';
+                    document.getElementsByClassName('body-cont')[0].style.width = 'calc(100% - 250px)';
+                    toggleStatus = true;
+                }
+            }
+        </script>
+    </body>
 </div>
+
 </html>

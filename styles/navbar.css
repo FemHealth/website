@@ -130,7 +130,8 @@ ul {
     position: fixed;
     top: 0px;
     left: 0px;
+    padding: 5px;
     z-index: 2343;
     cursor: pointer;
-    border: 10px solid #F76AA7;
+    border: 10px solid black;
 }
