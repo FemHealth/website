@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
     <!--Copy this in your page's head-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -8,25 +8,39 @@
 </head>
 
 <!--Important : To avoid the navbar hiding your page, add the div "body-cont" around all of your HTML content (so basically body,header,footer etc)-->
-<!-- TEST -->
+
 <!--Navbar code-->
-<div class="navbar">
+<div id="toggleMenu" onclick="toggleMenu()"></div>
+<nav class="navbar" id="menu">
     <div class="navbar_container">
         <div class="navbar_top">
             <div class="navbar_up">
                 <a href="" class="navbar_logo"><img id="navbar_logo" src="temp_logo.png"><p>Femhealth</p></a>
             </div>
-            <div class="navbar_mid">
-                <a href="articles.html" class="navbar_button"><div class="button_items"><span class="material-icons">description</span><p>Articles</p></div></a>
-                <a href="about.html" class="navbar_button"><div class="button_items"><span class="material-icons">info</span><p>About Femhealth</p></div></a>
-                <a href="team.html" class="navbar_button"><div class="button_items"><span class="material-icons">face</span><p>Meet the team</p></div></a>
-                <a href="promotion.html" class="navbar_button"><div class="button_items"><span class="material-icons">supervisor_account</span><p>Affiliated associations</p></div></a>
-                <a href="contact.html" class="navbar_button"><div class="button_items"><span class="material-icons">send</span><p>Contact us</p></div></a>
-                <a href="ressources.html" class="navbar_button"><div class="button_items"><span class="material-icons">psychology_alt</span><p>Ressources</p></div></a>
-            </div>
+            <ul class="navbar_mid">
+                <li><a href="articles.html" class="navbar_button"><div class="button_items"><span class="material-icons">description</span><p>Articles</p></div></a></li>
+                <li><a href="about.html" class="navbar_button"><div class="button_items"><span class="material-icons">info</span><p>About Femhealth</p></div></a></li>
+                <li><a href="team.html" class="navbar_button"><div class="button_items"><span class="material-icons">face</span><p>Meet the team</p></div></a></li>
+                <li><a href="promotion.html" class="navbar_button"><div class="button_items"><span class="material-icons">supervisor_account</span><p>Affiliated associations</p></div></a></li>
+                <li><a href="contact.html" class="navbar_button"><div class="button_items"><span class="material-icons">send</span><p>Contact us</p></div></a></li>
+                <li><a href="ressources.html" class="navbar_button"><div class="button_items"><span class="material-icons">psychology_alt</span><p>Ressources</p></div></a></li>
+            </ul>
         </div>
         <div class="navbar_down">
             <a href="" class="navbar_lang">FR</a>
         </div>
     </div>
-</div>
+</nav>
+<script>
+    var toggleStatus = true;
+    function toggleMenu() {
+        if (toggleStatus == true) {
+            document.getElementById('menu').style.left = '-500px';
+            toggleStatus = false;
+        } else {
+            document.getElementById('menu').style.left = '0px';
+            toggleStatus = true;
+        }
+    }
+</script>
+</html>
