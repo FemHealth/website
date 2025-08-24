@@ -194,20 +194,19 @@
             </div>
         </footer>
         <script>
-            var toggleStatus = true;
+            let toggleStatus = true;
             function toggleMenu() {
-                if (toggleStatus == true) {
+                if (toggleStatus) {
                     document.getElementById('menu').style.left = '-500px';
                     document.getElementsByClassName('body-cont')[0].style.marginLeft = '0px';
                     document.getElementsByClassName('body-cont')[0].style.width = '100%';
-                    toggleStatus = false;
                 } else {
                     document.getElementById('menu').style.left = '0px';
                     document.getElementsByClassName('body-cont')[0].style.marginLeft = '250px';
                     document.getElementsByClassName('body-cont')[0].style.width = 'calc(100% - 250px)';
-                    toggleStatus = true;
                 }
-            }
+                toggleStatus = !toggleStatus;
+            }            
         </script>
     </body>
 </div>
