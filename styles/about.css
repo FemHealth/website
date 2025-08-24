@@ -92,7 +92,7 @@ body {
     text-align: center;
     font-size: 40px;
 }
-.faq_quest {
+/* .faq_quest {
     background-color: #ffbdd8b0;
     border: 2px solid #F76AA7;
     border-radius: 25px;
@@ -101,9 +101,33 @@ body {
     font-size: 20px;
     cursor: pointer;
     overflow: hidden;
+} */
+
+.faq_quest {
+
+    margin: 0 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
 }
 
-.answer {
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.5rem;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+ .answer {
     max-height: 0;
     overflow: hidden;
     padding: 0;
@@ -113,8 +137,15 @@ body {
 .faq_quest.active .answer {
     max-height: 300px;
     animation: fade 1s ease-in-out;
+} 
+
+.faq_quest.active svg {
+    transform: rotate(180deg);
 }
 
+svg {
+    transition: transform 0.5s ease-in;
+}
 
 @keyframes fade {
     from {
