@@ -29,7 +29,7 @@ ul {
     height: 100%;
     position: fixed;
     background-color: #F76AA7;
-    transition: left 0.3s ease;
+    transition: left 0.5s ease;
 }
 
 .navbar_container {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -190,8 +191,8 @@
                 </div>
             </div>
         </footer>
-         <script>
-      let toggleStatus = true;
+        <script>
+            let toggleStatus = true;
             function toggleMenu() {
                 if (toggleStatus) {
                     document.getElementById('menu').style.left = '-500px';
@@ -204,7 +205,20 @@
                 }
                 toggleStatus = !toggleStatus;
             }
-</script>
+            {
+                const nav = document.querySelector('.navbar')
+                let lastScrollY = window.scrollY;
+
+                window.addEventListener('scroll', () => {
+                    if (lastScrollY < window.scrollY && window.scrollY > 450) {
+                        if (toggleStatus) {
+                            toggleMenu();
+                        }
+                    }
+                    lastScrollY = window.scrollY;
+                });
+            }    
+        </script>
     </body>
 </div>
 

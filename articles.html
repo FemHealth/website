@@ -206,7 +206,20 @@
                     document.getElementsByClassName('body-cont')[0].style.width = 'calc(100% - 250px)';
                 }
                 toggleStatus = !toggleStatus;
-            }            
+            }
+            {
+                const nav = document.querySelector('.navbar')
+                let lastScrollY = window.scrollY;
+
+                window.addEventListener('scroll', () => {
+                    if (lastScrollY < window.scrollY && window.scrollY > 450) {
+                        if (toggleStatus) {
+                            toggleMenu();
+                        }
+                    }
+                    lastScrollY = window.scrollY;
+                });
+            }       
         </script>
     </body>
 </div>
