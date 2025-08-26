@@ -160,7 +160,8 @@
                     <p>Answer</p>
                 </div>
             </div>
-            </div>
+        </div>
+
             <footer>
                 <div class="footer-top">
                     <div class="footer-top-container">
@@ -213,7 +214,7 @@
                     toggleStatus = !toggleStatus;
                 }
                 {
-                    const nav = document.querySelector('.navbar')
+                    const nav = document.querySelector('.navbar');
                     let lastScrollY = window.scrollY;
                     
                     window.addEventListener('scroll', () => {
@@ -224,7 +225,19 @@
                         }
                         lastScrollY = window.scrollY;
                     });
+                } 
+                {
+                    const faq = document.querySelector('.faq_jump')
+
+                    window.addEventListener('scroll', () => {
+                        if (window.scrollY > 1500) {
+                            faq.style.visibility = 'hidden';
+                        } else {
+                            faq.style.visibility = 'visible';
+                        }
+                    });
                 }
+
                 const faqs = document.querySelectorAll('.faq_quest');
 
                 faqs.forEach(faq => {
