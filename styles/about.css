@@ -16,10 +16,10 @@ body {
 .title {
     text-align: center;
     font-size: 50px;
-    border-bottom: 2px solid #F76AA7;
+    border-bottom: 2px solid #FFFFFF;
     margin: 40px 10px;
     padding-bottom: 5px;
-    color: #F76AA7;
+    color: #ffffff;
 }
 
 .faq_jump {
