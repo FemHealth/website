@@ -65,7 +65,8 @@
                     </ul>
                 </div>
                 <div class="navbar_down">
-                    <a href="" class="navbar_lang">FR</a>
+                    <div id="toggleMenu" onclick="toggleMenu()"><img src="flowers/flower4.svg" class="flower"></div>
+                    <!-- <a href="" class="navbar_lang">FR</a> -->
                 </div>
             </div>
         </nav>
@@ -114,6 +115,8 @@
         </footer>
         <script>
             let toggleStatus = true;
+            const flower = document.querySelector('.flower');
+
             function toggleMenu() {
                 if (toggleStatus) {
                     document.getElementById('menu').style.left = '-500px';
@@ -124,6 +127,8 @@
                     document.getElementsByClassName('body-cont')[0].style.marginLeft = '250px';
                     document.getElementsByClassName('body-cont')[0].style.width = 'calc(100% - 250px)';
                 }
+
+                flower.classList.toggle('active');
                 toggleStatus = !toggleStatus;
             }
             {

@@ -57,7 +57,8 @@
                     </ul>
                 </div>
                 <div class="navbar_down">
-                    <a href="" class="navbar_lang">FR</a>
+                    <div id="toggleMenu" onclick="toggleMenu()"><img src="flowers/flower4.svg" class="flower"></div>
+                    <!-- <a href="" class="navbar_lang">FR</a> -->
                 </div>
             </div>
         </nav>
@@ -120,7 +121,8 @@
                 <div class="question">
                     <h3>Question</h3>
                     <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="#F76AA7" fill="none" stroke-width="7" stroke-linecap="round" />
+                        <path d="M3 3L21 21L39 3" stroke="#F76AA7" fill="none" stroke-width="7"
+                            stroke-linecap="round" />
                     </svg>
                 </div>
                 <div class="answer">
@@ -131,7 +133,8 @@
                 <div class="question">
                     <h3>Question</h3>
                     <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="#F76AA7"  fill="none" stroke-width="7" stroke-linecap="round" />
+                        <path d="M3 3L21 21L39 3" stroke="#F76AA7" fill="none" stroke-width="7"
+                            stroke-linecap="round" />
                     </svg>
                 </div>
                 <div class="answer">
@@ -142,18 +145,20 @@
                 <div class="question">
                     <h3>Question</h3>
                     <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="#F76AA7" fill="none"stroke-width="7" stroke-linecap="round" />
+                        <path d="M3 3L21 21L39 3" stroke="#F76AA7" fill="none" stroke-width="7"
+                            stroke-linecap="round" />
                     </svg>
                 </div>
                 <div class="answer">
                     <p>Answer</p>
                 </div>
             </div>
-            <div class="faq_quest" >
+            <div class="faq_quest">
                 <div class="question">
                     <h3>Question</h3>
                     <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="#F76AA7"  fill="none" stroke-width="7" stroke-linecap="round" />
+                        <path d="M3 3L21 21L39 3" stroke="#F76AA7" fill="none" stroke-width="7"
+                            stroke-linecap="round" />
                     </svg>
                 </div>
                 <div class="answer">
@@ -162,90 +167,95 @@
             </div>
         </div>
 
-            <footer>
-                <div class="footer-top">
-                    <div class="footer-top-container">
-                        <div class="footer-top-left">
-                            <img src="temp_logo.png" alt="FemHealth Logo">
-                            <div class="footer-top-button">
-                                <a href="contact.html">Contact Us</a>
-                            </div>
-                        </div>
-                        <div class="footer-top-middle">
-                            <a href="index.html">Home</a>
-                            <a href="articles.html">Articles</a>
-                            <a href="team.html">About Us</a>
-                            <a href="ressources.html">Ressources</a>
-                        </div>
-                        <div class="footer-top-right">
-                            <h2>Slogan of FemHealth or Cute Quote about Women would go here!</h2>
+        <footer>
+            <div class="footer-top">
+                <div class="footer-top-container">
+                    <div class="footer-top-left">
+                        <img src="temp_logo.png" alt="FemHealth Logo">
+                        <div class="footer-top-button">
+                            <a href="contact.html">Contact Us</a>
                         </div>
                     </div>
-                    <div class="footer-top-button">
-                        <a href="#top">Go back to the top ^ </a>
+                    <div class="footer-top-middle">
+                        <a href="index.html">Home</a>
+                        <a href="articles.html">Articles</a>
+                        <a href="team.html">About Us</a>
+                        <a href="ressources.html">Ressources</a>
+                    </div>
+                    <div class="footer-top-right">
+                        <h2>Slogan of FemHealth or Cute Quote about Women would go here!</h2>
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    <div class="footer-bottom-item">
-                        <p>Made with <i class="fa-solid fa-heart"></i> by the FemHealth Dev Team</p>
-                    </div>
-                    <div class="footer-bottom-item">
-                        <p>Copyright &copy; 2025 FemHealth. All Rights Reserved.</p>
-                    </div>
-                    <div class="footer-bottom-item">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    </div>
+                <div class="footer-top-button">
+                    <a href="#top">Go back to the top ^ </a>
                 </div>
-            </footer>
-            <script>
-                let toggleStatus = true;
-                function toggleMenu() {
-                    if (toggleStatus) {
-                        document.getElementById('menu').style.left = '-500px';
-                        document.getElementsByClassName('body-cont')[0].style.marginLeft = '0px';
-                        document.getElementsByClassName('body-cont')[0].style.width = '100%';
-                    } else {
-                        document.getElementById('menu').style.left = '0px';
-                        document.getElementsByClassName('body-cont')[0].style.marginLeft = '250px';
-                        document.getElementsByClassName('body-cont')[0].style.width = 'calc(100% - 250px)';
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-item">
+                    <p>Made with <i class="fa-solid fa-heart"></i> by the FemHealth Dev Team</p>
+                </div>
+                <div class="footer-bottom-item">
+                    <p>Copyright &copy; 2025 FemHealth. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-item">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script>
+            let toggleStatus = true;
+            const flower = document.querySelector('.flower');
+
+            function toggleMenu() {
+                if (toggleStatus) {
+                    document.getElementById('menu').style.left = '-500px';
+                    document.getElementsByClassName('body-cont')[0].style.marginLeft = '0px';
+                    document.getElementsByClassName('body-cont')[0].style.width = '100%';
+                } else {
+                    document.getElementById('menu').style.left = '0px';
+                    document.getElementsByClassName('body-cont')[0].style.marginLeft = '250px';
+                    document.getElementsByClassName('body-cont')[0].style.width = 'calc(100% - 250px)';
+                }
+
+                flower.classList.toggle('active');
+                toggleStatus = !toggleStatus;
+            }
+            {
+                const nav = document.querySelector('.navbar')
+                let lastScrollY = window.scrollY;
+
+                window.addEventListener('scroll', () => {
+                    if (lastScrollY < window.scrollY && window.scrollY > 450) {
+                        if (toggleStatus) {
+                            toggleMenu();
+                        }
                     }
-                    toggleStatus = !toggleStatus;
-                }
-                {
-                    const nav = document.querySelector('.navbar');
-                    let lastScrollY = window.scrollY;
-                    
-                    window.addEventListener('scroll', () => {
-                        if (lastScrollY < window.scrollY && window.scrollY > 450) {
-                            if (toggleStatus) {
-                                toggleMenu();
-                            }
-                        }
-                        lastScrollY = window.scrollY;
-                    });
-                } 
-                {
-                    const faq = document.querySelector('.faq_jump')
+                    lastScrollY = window.scrollY;
+                });
+            }
 
-                    window.addEventListener('scroll', () => {
-                        if (window.scrollY > 1500) {
-                            faq.style.visibility = 'hidden';
-                        } else {
-                            faq.style.visibility = 'visible';
-                        }
-                    });
-                }
+            {
+                const faq = document.querySelector('.faq_jump')
 
-                const faqs = document.querySelectorAll('.faq_quest');
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 1500) {
+                        faq.style.visibility = 'hidden';
+                    } else {
+                        faq.style.visibility = 'visible';
+                    }
+                });
+            }
 
-                faqs.forEach(faq => {
-                    faq.addEventListener('click', () => {
-                        faq.classList.toggle('active');
-                    })
+            const faqs = document.querySelectorAll('.faq_quest');
+
+            faqs.forEach(faq => {
+                faq.addEventListener('click', () => {
+                    faq.classList.toggle('active');
                 })
-            </script>
+            })
+        </script>
     </body>
 </div>
 
