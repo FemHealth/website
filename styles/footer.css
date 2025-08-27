@@ -141,3 +141,27 @@ footer {
 .fa-heart {
     color: #C94F85; /* Change the color later*/;
 }
+
+/* Mobile override */
+@media screen and (max-width: 767px) {
+    .footer-top-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top-left, .footer-top-middle, .footer-top-right {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .footer-top-middle {
+        border-right: none;
+        border-left: none;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-bottom-item {
+        width: 80%;
+        margin: 10px 0;
+    }
+}

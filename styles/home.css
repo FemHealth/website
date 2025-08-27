@@ -1,9 +1,9 @@
+
 body {
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    /*border: 1px solid red; /* For debugging purposes, can be removed later */
 }
 
 .body-cont a {
@@ -27,7 +27,7 @@ body h2 {
 }
 
 .cta-button {
-    margin: 2rem;
+    margin: 2rem auto;
     padding: 10px 20px;
     border-radius: 25px;
     font-weight: 600;
@@ -58,6 +58,7 @@ header {
     background-color: #FAD1E2;
     color: #F76AA7;
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -407,7 +408,7 @@ header h2 {
 }
 /* Articles Section Styling */
 #articles {
-    min-width: 100vh;
+    min-height: 100vh;
     width: 80%;
     margin: 3rem auto;
     display: flex;
@@ -511,4 +512,257 @@ header h2 {
         transform: translateY(0);
     }
     
+}
+
+/* Media Queries for Responsiveness */
+/* Large Desktop to Small Desktop */
+@media (max-width: 1200px) and (min-width: 1025px) {
+    header h1 {
+        font-size: 8rem;
+    }
+    header h2 {
+        font-size: 2rem;
+    }
+    .header-cta {
+        gap: 1rem;
+        width: 70%;
+    }
+    .about-container-up, .about-container-down {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-text, .about-image{
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .mission-button {
+        margin: 1rem auto
+    }
+    .join-container-up, .join-container-down {
+        flex-direction: row;
+        align-items: center;
+    }
+    .join-container-up .join-item {
+        width: 45%;
+        margin: 1rem 0;
+    }
+
+    .join-container-down .join-item {
+        width: 30%;
+        margin: 1rem 0;
+    }
+
+    #articles {
+        text-align: center;
+    }
+
+    .article-item {
+        width: 100%;
+    }
+
+    .article-button {
+        width: 30%;
+    }
+
+    .testimonial-item {
+        width: 45%;
+    }
+}
+
+/* Tablet styles - Safari friendly approach */
+@media screen and (max-width: 1024px) {
+    /* Adjust container for mobile navbar */
+    .body-cont {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    #testimonial .cta-button { 
+        width: 40%;
+    }
+
+    #flower1, #flower2 {
+        width: 50%;
+    }
+
+    header h1 {
+        font-size: 6rem;
+    }
+
+    header h2 {
+        font-size: 2.5rem;
+    }
+
+    .header-cta {
+        gap: 1rem;
+        width: 70%;
+    }
+
+    .header-cta a {
+        font-size: 1.25rem;
+    }
+
+    .about-container-up, .about-container-down {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-text, .about-image{
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .mission-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mission-item {
+        width: 60%;
+        margin: 1rem 0;
+    }
+
+    .mission-button {
+        margin: 1rem auto;
+    }
+    .join-container-up, .join-container-down {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-container-up .join-item {
+        width: 80%;
+        margin: 1rem 0;
+    }
+
+    .join-container-down .join-item {
+        width: 80%;
+        margin: 1rem 0;
+    }
+
+    .testimonial-item {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    #articles {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .article-button {
+        margin: 2rem auto;
+    }
+
+    .article-item {
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #articles img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .article-text {
+        margin-bottom: 1rem;
+    }
+
+    .article-button {
+        width: 50%;
+    }
+
+    .testimonial-item {
+        width: 80%;
+    }
+}
+
+/* Mobile override */
+@media screen and (max-width: 767px) {
+    body h2 {
+        font-size: 1.5rem;
+    }
+
+    body p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        width: 90%;
+        max-width: 300px;
+        margin: 1rem auto;
+        padding: 12px 20px;
+        display: block;
+        text-align: center;
+    }
+
+    #join .cta-button, #testimonial .cta-button, #articles .cta-button {
+        width: 80%;
+        max-width: 250px;
+        margin: 2rem auto;
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 1.25rem;
+    }
+
+    .header-cta a {
+        font-size: 1rem;
+    }
+
+    .header-cta {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .hero-button-1, .hero-button-2 {
+        margin: 0 auto;
+    }
+
+    #flower1, #flower2 {
+        width: 60%;
+    }
+
+    .about-container{
+        padding: 0;
+    }
+
+    .about-text, .about-image{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .mission-item {
+        width: 80%;
+        margin: 1rem 0;
+    }
+    
+    #articles {
+        text-align: center;
+    }
+
+    .article-text {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .article-item {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
