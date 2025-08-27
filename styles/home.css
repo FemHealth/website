@@ -703,6 +703,11 @@ header h2 {
         text-align: center;
     }
 
+    .fa-chevron-down {
+        font-size: 2rem;
+        bottom: 8rem;
+    }
+
     #join .cta-button, #testimonial .cta-button, #articles .cta-button {
         width: 80%;
         max-width: 250px;
@@ -732,8 +737,14 @@ header h2 {
     }
 
     #flower1, #flower2 {
-        width: 60%;
+        width: 70%;
     }
+
+    #about, #join, #testimonial, #articles, #mission {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }   
 
     .about-container{
         padding: 0;
@@ -746,12 +757,8 @@ header h2 {
     }
 
     .mission-item {
-        width: 80%;
+        width: 90%;
         margin: 1rem 0;
-    }
-    
-    #articles {
-        text-align: center;
     }
 
     .article-text {
