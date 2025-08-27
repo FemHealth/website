@@ -66,12 +66,6 @@ ul {
     justify-content: baseline;
 }
 
-.button_items p {
-    font-size: 20px;
-    display: flex;
-    justify-content: baseline;
-}
-
 .navbar_button .button_items {
     transition: 200ms;
 }
@@ -84,7 +78,6 @@ ul {
 }
 
 .navbar_logo {
-    padding-top: 5px;
     display: flex;
     justify-content:baseline;
     font-size: 30px;
@@ -92,7 +85,6 @@ ul {
 
 .navbar_logo p {
     font-size: 30px;
-    padding-top: 5px;
     display: flex;
     justify-content:baseline;
 }
@@ -141,10 +133,42 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
+    width: 70px;
+    height: 70px;
     padding: 10px;
     transform: rotate(180deg); 
 }
 
 .flower:hover {
     transform: rotate(90deg);
+}
+
+
+
+/* Large monitors (≥1600px) → give more space */
+@media screen and (min-width: 1600px) {
+
+}
+
+/* Medium screens (between 1024px and 1400px) → a bit tighter */
+@media screen and (max-width: 1400px) {
+.navbar_mid {
+    padding: 0 10px;
+}
+
+.button_items { 
+    font-size: 18px;
+}
+}
+
+/* Smaller laptops (≤1200px) → compact sidebar */
+@media screen and (max-width: 1200px) {
+.navbar_mid {
+    padding: 0 10px;
+}
+
+.button_items { 
+    font-size: 18px;
+}
+
 }

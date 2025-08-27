@@ -320,7 +320,8 @@
                 let lastScrollY = window.scrollY;
 
                 window.addEventListener('scroll', () => {
-                    if (lastScrollY < window.scrollY && window.scrollY > 450) {
+                    let difference = window.scrollY - lastScrollY;
+                    if (lastScrollY < window.scrollY && window.scrollY > 450  && difference > 50) {
                         if (toggleStatus) {
                             toggleMenu();
                         }
