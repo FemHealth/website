@@ -295,7 +295,7 @@ button:hover {
     .hero {
         padding: 2rem;
         text-align: center;
-        min-height: 60vh;
+        min-height: 100vh;
         display: flex;
         align-items: center;    
         justify-content: center;
@@ -315,16 +315,16 @@ button:hover {
     }
 
     .hero-image {
-        width: 70%;
+        width: 80%;
         height: auto;
     }
 
     .hero-text h1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
 
     .hero-text p {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .contact-container {
@@ -334,16 +334,36 @@ button:hover {
     }
 
     .contact-form, .contact-info {
-        width: 80%;
+        width: 90%;
         margin-bottom: 2rem;
+    }
+
+    .contact-form textarea {
+        height: 250px;
+        resize: none;
+
+    }
+
+    h2 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .contact-form p, .contact-form input, .contact-form textarea, .contact-form label, .contact-form button {
+        font-size: 1.5rem;
     }
 
     .contact-form input, .contact-form textarea {
         width: 100%;
     }
 
+    .contact-info p {
+        font-size: 1.5rem;
+    }
+
     .contact-social-icons {
-        width: 80%;
+        width: 100%;
     }
 
     .contact-social h2 {
@@ -351,15 +371,13 @@ button:hover {
     }
 
     .contact-social-icons {
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
-    
-    .fa-facebook, 
-    .fa-instagram, 
-    .fa-linkedin {
-        font-size: 2.5rem;
+
+    .contact-social .fa-facebook,  .contact-social .fa-instagram,  .contact-social .fa-linkedin, #contact .fa-envelope, #contact .fa-phone, #contact .fa-location-dot {
+        font-size: 4rem;
         margin: 15px 0;
     }
 
