@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    background: linear-gradient(to bottom, #FFF4C4, #F76AA7);
+    background: linear-gradient(to bottom, #FFF4C4, #FAD1E2);
 }
 
 body p {
@@ -370,6 +370,10 @@ header h2 {
     flex-direction: column;
     justify-content: center;
     color: #FFF4C4;
+}
+
+.pink {
+    color: #F76AA7;
 }
 
 .testimonial-container {

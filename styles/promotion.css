@@ -3,7 +3,6 @@
     /* border: 1px solid red; */
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -216,4 +215,118 @@ body {
     font-weight: 400;
     text-decoration: none;
     color: black; /* Change the color later*/
+}
+
+/* Media Queries for Responsiveness */
+/* Large Desktop to Small Desktop */
+@media (max-width: 1200px) and (min-width: 1025px) {
+    .hero-text {
+        width: 60%;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+    }
+
+    .hero-image {
+        width: 35%;
+    }
+
+    .association-item {
+        width: 45%;
+        margin: 20px 0;
+    }
+}
+
+/* Tablet styles */
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding: 2rem;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;    
+        justify-content: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .hero-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1.25rem;
+    }
+
+    .hero-button-1, .hero-button-2 {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .association-item {
+        width: 80%;
+        margin: 15px 0;
+    }
+
+}
+
+/* Mobile override */
+@media screen and (max-width: 767px) {
+    .hero {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .hero-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-button-1, .hero-button-2 {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .association-item {
+        width: 80%;
+        margin: 15px 0;
+    }
 }
