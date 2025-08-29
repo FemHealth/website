@@ -242,7 +242,7 @@ button:hover {
 }
 
 /* Tablet styles */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
     .hero {
         padding: 2rem;
         text-align: center;
