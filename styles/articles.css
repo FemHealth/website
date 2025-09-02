@@ -18,10 +18,118 @@ body {
 }
 
 #Header h1{
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 0;
+    font-weight: 800;
 }
 
 #Header h2 {
-    margin-top: 1rem;
+    margin: 0 2rem 3rem 2rem;
+    text-align: center;
+}
+
+.flowerBanner {
+    border-top: 2px #F76AA7 solid;
+    margin: 0 30px;
+    border-radius: 50%;
+}
+
+.slider {
+    margin: 0 30px;
+    position: relative;
+}
+
+.card {
+    display: block;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.card-list {
+    margin: 0;
+    padding: 0;
+}
+
+.card-wrapper {
+    margin: 80px 60px 35px;
+    padding: 20px 0;
+}
+
+.card-link {
+    position:relative;
+    display: inline-block;
+}
+
+.article {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    aspect-ratio: 1/1;
+    max-height: 500px;
+}
+
+.card-hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color:#680a3352;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.card-button {
+    text-decoration: none;
+    color: #F76AA7; 
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 25px;
+    width: 35%;
+    background-color: #FFF4C4;
+    transition: 0.1s ease;
+}
+
+.card-button:hover {
+    background-color: #f5e499;
+}
+.card-link:hover .card-hover {
+  opacity: 1;
+}
+
+.button-prev, .button-next {
+  position: absolute;
+  top: 58%;
+  transform: translateY(-50%);
+  width: 90px;  
+  height: 90px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+.button-prev {
+    transform: rotateX(180deg) rotateZ(180deg) translateY(-50%);
+    left: -20px;
+}
+
+.button-next {
+  right: -20px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #680a33;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #F76AA7;
 }
