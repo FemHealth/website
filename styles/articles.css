@@ -114,6 +114,7 @@ body {
   height: 90px;
   cursor: pointer;
   z-index: 10;
+  transition: 0.1s ease;
 }
 
 
@@ -123,7 +124,14 @@ body {
 }
 
 .button-next {
-  right: -20px;
+    right: -20px;
+}
+
+.button-prev:hover {
+    filter: drop-shadow(3px 0px 1px #f76aa7);
+}
+.button-next:hover {
+    filter: drop-shadow(3px 0px 1px #ffffdd);
 }
 
 .swiper-pagination-bullet {

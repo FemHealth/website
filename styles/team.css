@@ -18,7 +18,7 @@ body {
     padding: 20px;
 }
 
-img {
+.team-content img {
     max-width: 70%;
     height: auto;
 }
