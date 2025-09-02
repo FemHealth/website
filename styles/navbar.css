@@ -137,6 +137,7 @@ ul {
     height: 70px;
     padding: 10px;
     transform: rotate(180deg); 
+    z-index: 99999;
 }
 
 .flower:hover {
