@@ -15,7 +15,7 @@ body {
     background: linear-gradient(to bottom, #FFF4C4, #FAD1E2);
 }
 
-body p {
+.body-cont p {
     font-size: 1.2rem;
     line-height: 1.6;
 }
