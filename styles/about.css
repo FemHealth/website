@@ -141,12 +141,15 @@ body {
     max-height: 300px;
     animation: fade 1s ease-in-out;
 } 
-
-.faq_quest.active svg {
+.faq_quest img {
+    width: 30px;
+    height: 30px;
+}
+.faq_quest.active img {
     transform: rotate(180deg);
 }
 
-svg {
+img {
     transition: transform 0.5s ease-in;
 }
 
